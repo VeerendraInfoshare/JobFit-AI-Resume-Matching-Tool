@@ -68,20 +68,13 @@ pip install -r requirements.txt
 
 2. **Run the User Submission App**:
    ```bash
-   streamlit run user_app.py
+   streamlit run user.py
    ```
 
 3. **Run the Admin Evaluation Panel**:
    ```bash
-   streamlit run admin_app.py
+   streamlit run admin.py
    ```
-
-##  Example LLM Usage
-
-The Admin Panel uses prompts like:
-```text
-Extract only the technical skills (programming languages, libraries, frameworks, tools, platforms, APIs) from the resume below...
-```
 
 ##  Notes
 
