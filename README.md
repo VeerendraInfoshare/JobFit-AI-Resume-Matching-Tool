@@ -85,7 +85,6 @@ pip install -r requirements.txt
 ##  Future Enhancements
 
 - Add authentication for admin panel
-- Support DOCX resume parsing
 - Use cloud storage and databases (e.g., Firebase, PostgreSQL)
 
 ---
