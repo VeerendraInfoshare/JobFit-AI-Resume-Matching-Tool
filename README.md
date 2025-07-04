@@ -1,5 +1,3 @@
-# JobFit-AI-Resume-Matching-Tool
-An AI-powered tool that compares resume with job descriptions to calculate fit scores and recommend candidates for hiring.
 # 🧠 Job Application and Resume Evaluation System
 
 This is a two-part Streamlit application that allows job seekers to submit applications and lets recruiters evaluate those applications based on either:
