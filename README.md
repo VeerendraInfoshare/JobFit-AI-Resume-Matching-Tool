@@ -1,18 +1,18 @@
-# 🧠 Job Application and Resume Evaluation System
+#  Job Application and Resume Evaluation System
 
 This is a two-part Streamlit application that allows job seekers to submit applications and lets recruiters evaluate those applications based on either:
 - Skills & experience (from a JSON database)
 - Resume content (via AI-based analysis using LangChain & Ollama)
 
-## 🚀 Features
+##  Features
 
-### 👤 User Side (Job Application)
+### User Side (Job Application)
 - Submit name, skills, experience, motivation
 - Upload resume (PDF/DOCX)
 - All submissions stored in `submissions.json`
 - Resumes stored under the `resumes/` folder
 
-### 🛠️ Admin Panel
+###  Admin Panel
 - **Skill-based evaluation** from submitted JSON data
 - **Resume-based evaluation** using:
   - Ollama-powered LLM (e.g. `llama2`)
@@ -20,7 +20,7 @@ This is a two-part Streamlit application that allows job seekers to submit appli
   - Fit scoring based on mandatory skills, good-to-have skills, and experience
 - Download evaluation results in CSV or Excel
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -33,7 +33,7 @@ This is a two-part Streamlit application that allows job seekers to submit appli
 ├── README.md                    # You're reading this!
 ```
 
-## 🧠 Requirements
+##  Requirements
 
 - Python 3.8+
 - Streamlit
@@ -42,7 +42,7 @@ This is a two-part Streamlit application that allows job seekers to submit appli
 - PyPDFLoader (from `langchain_community`)
 - Ollama running locally (`llama2:7b` or any compatible model)
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -57,9 +57,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-> ✏️ You may need to manually install `ollama`, `langchain_community`, and `streamlit` if not already installed.
+>  You may need to manually install `ollama`, `langchain_community`, and `streamlit` if not already installed.
 
-## 🏁 Running the Apps
+##  Running the Apps
 
 1. **Start Ollama locally** with the required model:
    ```bash
@@ -76,20 +76,20 @@ pip install -r requirements.txt
    streamlit run admin_app.py
    ```
 
-## 📄 Example LLM Usage
+##  Example LLM Usage
 
 The Admin Panel uses prompts like:
 ```text
 Extract only the technical skills (programming languages, libraries, frameworks, tools, platforms, APIs) from the resume below...
 ```
 
-## 📌 Notes
+##  Notes
 
 - Ensure `ollama` server is running before using the Admin Panel.
 - All resume files are saved to `resumes/` directory.
 - Admin evaluations are non-destructive and support multiple resume uploads.
 
-## ✨ Future Enhancements
+##  Future Enhancements
 
 - Add authentication for admin panel
 - Support DOCX resume parsing
@@ -97,4 +97,4 @@ Extract only the technical skills (programming languages, libraries, frameworks,
 
 ---
 
-Made with ❤️ using Streamlit, Ollama, and LangChain
+ with using Streamlit, Ollama, and LangChain
