@@ -1,0 +1,37 @@
+[
+    {
+        "Name": "Nandamuri Taraka Ramarao",
+        "Skills": ".Net, Python, React, Java",
+        "Experience": 12,
+        "Motivation": "Dummy Data",
+        "ResumePath": "resumes\\Resume-harsha.pdf"
+    },
+    {
+        "Name": "Abhinay",
+        "Skills": "Python, Flask, Django, MySQL",
+        "Experience": 4,
+        "Motivation": "Test Data",
+        "ResumePath": "resumes\\Abhinay Resume.pdf"
+    },
+    {
+        "Name": "Koushik",
+        "Skills": "React, Java, Angular, .Net, Springboot, HTML,CSS, Bootstrap",
+        "Experience": 4,
+        "Motivation": "Fake Data just for testing",
+        "ResumePath": "resumes\\koushik tcs resume.pdf"
+    },
+    {
+        "Name": "Yarra Srimanth",
+        "Skills": "Machine Learning, Python, Tensorflow, Java, Springboot, HTML, CSS, React",
+        "Experience": 1,
+        "Motivation": "Just Sample",
+        "ResumePath": "resumes\\RESUME(YARRA SRIMANTH) (AutoRecovered).pdf"
+    },
+    {
+        "Name": "Harsha",
+        "Skills": "Power BI, HTML, CSS, Machine Learning, TensorFlow, React, .Net, Springboot",
+        "Experience": 1,
+        "Motivation": "Sample Data for Testing",
+        "ResumePath": "resumes\\Resume-harsha.pdf"
+    }
+]
