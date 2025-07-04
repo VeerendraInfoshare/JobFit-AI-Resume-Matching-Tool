@@ -95,10 +95,6 @@ Extract only the technical skills (programming languages, libraries, frameworks,
 - Support DOCX resume parsing
 - Use cloud storage and databases (e.g., Firebase, PostgreSQL)
 
-## 📬 Contact
-
-For any questions or contributions, feel free to open an issue or pull request.
-
 ---
 
 Made with ❤️ using Streamlit, Ollama, and LangChain
