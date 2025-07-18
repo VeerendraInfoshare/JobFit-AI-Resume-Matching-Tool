@@ -28,8 +28,7 @@ This is a two-part Streamlit application that allows job seekers to submit appli
 ├── submissions.json             # JSON file with candidate submissions
 ├── evaluated_results.csv        # Generated skill-based evaluation results
 ├── Resume_Evaluation.xlsx       # Generated resume-based evaluation results
-├── user_app.py                  # Candidate application submission app
-├── admin_app.py                 # Admin evaluation panel
+├── Final.py                  # Candidate application submission app # Admin evaluation panel
 ├── README.md                    # You're reading this!
 ```
 
